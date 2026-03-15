@@ -1,0 +1,116 @@
+ 
+ body{
+    background-color: white;
+    font-family: Century Gothic;
+    margin:0;
+    height:100%;
+ }
+ .Header{
+    background-image: url("HeaderPhotoMe.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.NavigationBar{
+    background-color: rgb(4, 85, 132);
+    text-align: center;
+    padding:10px;
+    margin:10px;
+    border-radius: 5px;
+}
+ 
+.NavigationBar a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+.Parallax1{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    background-image: url("newpic(3).jpg");
+    height:700px;
+}
+.img2{
+    background-image: url("PortfolioImage(1).jpeg");
+    height:700px;
+}
+.img3{
+    background-image: url("newpic(1).jpg");
+    height:700px;
+}
+.img4{
+    background-image: url("PortfolioImage(4).jpeg");
+    height:700px;
+}
+.img5{
+    background-image: url("newpic(2).avif");
+    height:100px;
+}
+.Footer {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+#About{
+    background-color: white;
+    font-family: Century Gothic;
+}
+
+#Skills{
+    background-color: white;
+}
+#Project{
+    background-color: white;
+    border-radius: 40px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.Project:hover{
+    transform: scale(1.05);
+    transition:0.3s;
+}
+#Project div{
+    flex:1;
+}
+#Contact{
+    background-color: white;
+}
+
+.project{
+    background-color: gray;
+    border-radius: 60px;
+    padding:50px;
+    margin:30px;
+    width:70px;
+    height:80px;
+}
+.project img{
+    width:100%;
+}
+#top{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}
+@media only screen and (max-width:600px){
+    #Project{
+        display:flex;
+        flex-direction: column;
+    }
+}
