@@ -1,5 +1,8 @@
  
- body{
+ html{
+  scroll-behavior:smooth;
+}
+body{
     background-color: white;
     font-family: Century Gothic;
     margin:0;
@@ -31,7 +34,6 @@
     margin:0 15px;
     text-decoration:none;
     font-weight:bold;
-
 }
 
 .Parallax1{
@@ -80,10 +82,9 @@
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
-}
-.Project:hover{
-    transform: scale(1.05);
-    transition:0.3s;
+    justify-content: center;
+    gap:35px;
+    padding:2px 100px 2px 0px;
 }
 #Project div{
     flex:1;
@@ -92,16 +93,44 @@
     background-color: white;
 }
 
-.project{
-    background-color: gray;
-    border-radius: 60px;
-    padding:50px;
-    margin:30px;
-    width:70px;
-    height:80px;
-}
-.project img{
+.projectpro1 img{
+    transition: transform 0.3s;
     width:100%;
+    height:auto;
+    display:box;
+    border:1px double black;
+    border-radius: 18px;
+    padding:5px;
+    margin:30px;
+}
+.projectpro1 img:hover{
+    transform: scale(1.1);
+}
+.projectpro2 img{
+    transition: transform 0.3s;
+    width:100%;
+    height:auto;
+    display:box;
+    border:1px double black;
+    border-radius: 18px;
+    padding:5px;
+    margin:30px;
+}
+.projectpro2 img:hover{
+    transform: scale(1.1);
+}
+.projectpro3 img{
+    transition: transform 0.3s;
+    width:100%;
+    height:auto;
+    display:box;
+    border:1px double black;
+    border-radius: 18px;
+    padding:5px;
+    margin:30px;
+}
+.projectpro3 img:hover{
+    transform: scale(1.1);
 }
 #top{
     position:fixed;
