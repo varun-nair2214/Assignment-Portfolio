@@ -1,22 +1,21 @@
  
  html{
-  scroll-behavior:smooth;
+  scroll-behavior:smooth; /* To enable smooth scrolling feature */
 }
 body{
-    background-color: white;
+    background-color: white; 
     font-family: Century Gothic;
-    margin:0;
-    height:100%;
+    margin:0; /*It removes default browser margin around the page */
+    height:100%; /*To occupy full height of viewport */
  }
  .Header{
     background-image: url("HeaderPhotoMe.jpeg");
-    background-size: cover;
-
-    background-position: center;
+    background-size: cover; /* Makes the image cover the entire area */
+    background-position: center;  /* Centers background image */
     height: 300px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /*Places content horizontally centered */
+    align-items: center; /* Places content vertically centered */
     color: black;
     border-radius: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -24,7 +23,7 @@ body{
 
 .NavigationBar{
     background-color: rgb(4, 85, 132);
-    text-align: center;
+    text-align: center; /* Places content horizontally centered */
     padding:10px;
     margin:10px;
     border-radius: 5px;
@@ -33,15 +32,14 @@ body{
 .NavigationBar a{
     color:white;
     margin:0 15px;
-    text-decoration:none;
-    font-weight:bold;
+    text-decoration:none; /* Removes underline from links */
+    font-weight:bold; /* Makes the link bold */
 }
-
 .Parallax1{
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed; /* Creates the parallax scrolling effect */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image from repeating */
+    background-size: cover; 
 }
 .img1{
     background-image: url("newpic(3).jpg");
@@ -82,9 +80,9 @@ body{
     border-radius: 40px;
     display:flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap:wrap; /* Items move to next line if no space */
     justify-content: center;
-    gap:35px;
+    gap:35px; /* Space between items */
     padding:2px 100px 2px 0px;
 }
 #Project div{
@@ -93,9 +91,8 @@ body{
 #Contact{
     background-color: white;
 }
-
 .projectpro1 img{
-    transition: transform 0.3s;
+    transition: transform 0.3s; /* Smoothes out the animation when image scales */
     width:100%;
     height:auto;
     display:box;
@@ -105,7 +102,7 @@ body{
     margin:30px;
 }
 .projectpro1 img:hover{
-    transform: scale(1.1);
+    transform: scale(1.1); /* Enlarges the image slightly */
 }
 .projectpro2 img{
     transition: transform 0.3s;
@@ -134,7 +131,7 @@ body{
     transform: scale(1.1);
 }
 #top{
-    position:fixed;
+    position:fixed; /* Fixes the element even while scrolling */
     bottom:20px;
     right:20px;
 }
