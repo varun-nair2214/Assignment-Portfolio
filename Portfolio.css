@@ -19,7 +19,7 @@ body{
     color: black;
     border-radius: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    text-shadow: 2px 2px 9px rgb(9, 176, 243) ;} /* Adds a horizontal and vertical shadow along with a blur effect */
 
 .NavigationBar{
     background-color: rgb(4, 85, 132);
@@ -92,7 +92,7 @@ body{
     background-color: white;
 }
 .projectpro1 img{
-    transition: transform 0.3s; /* Smoothes out the animation when image scales */
+    transition: transform 0.8s; /* Smoothes out the animation when image scales */
     width:100%;
     height:auto;
     display:box;
@@ -100,12 +100,14 @@ body{
     border-radius: 18px;
     padding:5px;
     margin:30px;
+    opacity:0.7; /* Describes how opaque the image is */
 }
 .projectpro1 img:hover{
     transform: scale(1.1); /* Enlarges the image slightly */
+    opacity:1.0; /* When hovered, the opacity changes */
 }
 .projectpro2 img{
-    transition: transform 0.3s;
+    transition: transform 0.8s;
     width:100%;
     height:auto;
     display:box;
@@ -113,12 +115,14 @@ body{
     border-radius: 18px;
     padding:5px;
     margin:30px;
+    opacity:0.7;
 }
 .projectpro2 img:hover{
     transform: scale(1.1);
+    opacity:1.0;
 }
 .projectpro3 img{
-    transition: transform 0.3s;
+    transition: transform 0.8s;
     width:100%;
     height:auto;
     display:box;
@@ -126,9 +130,11 @@ body{
     border-radius: 18px;
     padding:5px;
     margin:30px;
+    opacity:0.7;
 }
 .projectpro3 img:hover{
-    transform: scale(1.1);
+    transform: scale(1.1); 
+    opacity:1.0;
 }
 #top{
     position:fixed; /* Fixes the element even while scrolling */
